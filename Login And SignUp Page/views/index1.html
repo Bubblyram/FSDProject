@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+        <link rel="stylesheet" href="/css/style1login.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                LoginIn
+            </h1>
+            <p>Dont have an Account?</p>
+            <a href="signup1.html">SignUp</a>
+            <div>
+                <form class="form" action='/validate' id="form" method="POST">
+                    <label>FirstName:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label>LastName:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label>Password:</label><br>
+                    <input type="password" id="pass" name="pwd"><br>
+                    <label>Email</label><br>
+                    <input type="text" id="mail" name="email"><br>
+                    <input type="radio">I accept the terms of use<br>
+                    <input type="submit"onclick="myFunction()"></input>
+                </form>
+            </div>
+        </div>
+        <script src="/js/login.js">
+        </script>
+    </body>
+</html>
